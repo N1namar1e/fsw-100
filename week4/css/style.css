@@ -1,0 +1,111 @@
+a:hover {
+    text-decoration: underline;
+    background-color: rgb(172, 72, 138)
+    }
+    .grid-container1 {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        background-color: none;
+        padding: 0px;
+  
+      }
+      .grid-item1 {
+        background-color: rgba(255, 255, 255, 0.8);
+        border: 0px solid rgba(0, 0, 0, 0.8);
+        padding: 10px;
+        font-size: 30px;
+        text-align: left;
+        
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      }
+      .grid-container2 {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto;
+        background-color: plum;
+        padding: 10px;
+        
+      }
+      .grid-item2 {
+        background-color: rgba(255, 255, 255, 0.8);
+        border: 1px solid rgba(0, 0, 0, 0.8);
+        padding: 20px;
+        font-size: 30px;
+        text-align: center;
+      }
+
+      .item2 { 
+          grid-area: photo; 
+          text-align: center;
+        }
+      .item3 { 
+          grid-area: title;
+          font-size: 20px;
+          text-align: left;
+          font-weight: bold;
+    }
+      .item4 { 
+          grid-area: date;
+          font-size: 16px;
+          text-align: left;
+         }
+      .item5 { 
+          grid-area: story; 
+          font-size: 14px;
+          text-align: left;
+          width: 500px;
+        }
+      
+      .grid-container3 {
+        display: grid;
+        grid-template-areas:
+          
+          'photo title title title title title'
+          'photo date date date date date'
+          'photo story story story story story';
+        grid-gap: 10px;
+        background-color:  rgba(255, 255, 255, 0.8);
+        padding: 10px;
+        
+      }
+      
+      .grid-container3 > div {
+        background-color: rgba(255, 255, 255, 0.8);
+        padding: 10px 0;
+        
+      }
+      .grid-container4 {
+        display: grid;
+        grid-template-areas:
+          
+          'photo title title title title title'
+          'photo date date date date date'
+          'photo story story story story story';
+        grid-gap: 10px;
+        background-color: rgba(255, 255, 255, 0.8);
+        padding: 10px;
+        
+      }
+      
+      .grid-container4 > div {
+        background-color: rgba(255, 255, 255, 0.8);
+        padding: 10px 0;
+        
+      }
+      .grid-container5 {
+        display: grid;
+        grid-template-areas:
+          
+          'photo title title title title title'
+          'photo date date date date date'
+          'photo story story story story story';
+        grid-gap: 10px;
+        background-color: rgba(255, 255, 255, 0.8);
+       
+
+      }
+      
+      .grid-container5 > div {
+        background-color: rgba(255, 255, 255, 0.8);
+        padding: 10px 0;
+        
+      }
