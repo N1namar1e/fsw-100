@@ -1,0 +1,52 @@
+@media screen and (max-width: 768px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+
+
+.item1 { grid-area: lightpink; 
+  background-color:#F5C6D6;
+}
+.item2 { grid-area: pink1;
+  background-color: #EE2E84
+}
+.item3 { grid-area: pink2; 
+  background-color: #EE2E84
+}
+.item4 { grid-area: pink3; 
+  background-color: #EE2E84
+}
+.item5 { grid-area: pink4; 
+  background-color: #EE2E84 
+}
+.item6 { grid-area: blue1; 
+  background-color: #85CFD8
+}
+.item7 { grid-area: blue2; 
+  background-color: #85CFD8
+}
+.item8 { grid-area: green; 
+  background-color: #8DC63F
+}
+.item9 { grid-area: orange; 
+  background-color: #E76E34
+}
+
+
+.grid-container {
+display: grid;
+
+grid-template-areas:
+  'lightpink lightpink lightpink lightpink'
+  'pink1 pink2 pink3 pink4 '
+  'blue1 blue1 blue2 blue2 '
+  'green green green orange ';
+grid-gap: 10px;
+padding: 20px;
+}
+
+.grid-container > div {
+height: 60px;
+}
